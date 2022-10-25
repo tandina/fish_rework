@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="descprition" content="Fisheye">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./docs/Css/photographer.css">
+        <link rel="stylesheet" href="./docs/Css/lightbox.css"> 
+        <link rel="shortcut icon" type="image/png"  href="favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet"> 
+        <title>FishEye</title>
+    </head>
+<body>
+     
+    <main id="main">
+        <header id="header">      
+            <a class="logo" href="./index.html" alt="FishEye Home page" aria-label="Logo du site" alt-text="lien qui ramene vers l'accueil"></a>                
+        </header>
+        <div id ="banner"></div>  
+    <div class="position">    
+        <section class="listbox" id="list">
+            <label class="label-custom" label="Menu de selection "></label>  
+                <div class="custom-select"  label="Order by">
+                    <select>                                 
+                        <option class= "option1" label= "Popularité" value="1" ></option>
+                        <option class= "option2" label= "Date" value="2" ></option>   
+                        <option class= "option3" label= "Titre" value="3" ></option>
+                    </select>      
+                </div>
+        </section> 
+        <section id ="liste_media"></section>
+    </div>
+        
+    </main> 
+    <div class= "modal"></div>
+        <div class="box" tabindex="-1"></div> 
+    <script src ="./docs/Js/profil.js" type="module"></script>   
+
+</body>
+</html>
